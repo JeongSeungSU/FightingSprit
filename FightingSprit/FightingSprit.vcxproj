@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{513AF2FF-970D-4484-8A39-26268EA59F92}</ProjectGuid>
+    <RootNamespace>FightingSprit</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50522.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Irrlicht.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include=".\Exception.cpp" />
+    <ClCompile Include=".\NetworkException.cpp" />
+    <ClCompile Include=".\CriticalSection.cpp" />
+    <ClCompile Include=".\ServerInfo.cpp" />
+    <ClCompile Include=".\Synchronized.cpp" />
+    <ClCompile Include=".\ConsolLog.cpp" />
+    <ClCompile Include=".\Log.cpp" />
+    <ClCompile Include=".\NetworkManager.cpp" />
+    <ClCompile Include=".\ClientSocket.cpp" />
+    <ClCompile Include=".\ServerSocket.cpp" />
+    <ClCompile Include=".\NetworkControler.cpp" />
+    <ClCompile Include=".\Packet.cpp" />
+    <ClCompile Include=".\PacketFactory.cpp" />
+    <ClCompile Include=".\PacketMaker.cpp" />
+    <ClCompile Include=".\CompletionHandler.cpp" />
+    <ClCompile Include=".\Session.cpp" />
+    <ClCompile Include=".\Thread.cpp" />
+    <ClCompile Include=".\ThreadManager.cpp" />
+    <ClCompile Include=".\WorkThread.cpp" />
+    <ClCompile Include=".\User.cpp" />
+    <ClCompile Include=".\Irrdevice.cpp" />
+    <ClCompile Include=".\ResourceManager.cpp" />
+    <ClCompile Include=".\Object.cpp" />
+    <ClCompile Include=".\ObjectFactory.cpp" />
+    <ClCompile Include=".\SkyBoxObject.cpp" />
+    <ClCompile Include=".\TerrainObject.cpp" />
+    <ClCompile Include=".\UnitObject.cpp" />
+    <ClCompile Include=".\StateFactyory.cpp" />
+    <ClCompile Include=".\StateFighting.cpp" />
+    <ClCompile Include=".\StateNetwork.cpp" />
+    <ClCompile Include=".\StateTemp.cpp" />
+    <ClCompile Include=".\StateWaitingRoom.cpp" />
+    <ClCompile Include=".\Observer.cpp" />
+    <ClCompile Include=".\ObserverEvent.cpp" />
+    <ClCompile Include=".\AnimationControler.cpp" />
+    <ClCompile Include=".\Player.cpp" />
+    <ClCompile Include=".\ChildCommand.cpp" />
+    <ClCompile Include=".\Command.cpp" />
+    <ClCompile Include=".\MacroCommand.cpp" />
+    <ClCompile Include=".\CommandFactory.cpp" />
+    <ClCompile Include=".\Time.cpp" />
+    <ClCompile Include=".\WindowTime.cpp" />
+    <ClCompile Include=".\FightingSprit.cpp" />
+    <ClCompile Include=".\main.cpp" />
+    <ClCompile Include=".\SmartPointer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\Exception.h" />
+    <ClInclude Include=".\NetworkException.h" />
+    <ClInclude Include=".\CriticalSection.h" />
+    <ClInclude Include=".\Network.h" />
+    <ClInclude Include=".\Protocol.h" />
+    <ClInclude Include=".\ServerInfo.h" />
+    <ClInclude Include=".\Synchronized.h" />
+    <ClInclude Include=".\ConsolLog.h" />
+    <ClInclude Include=".\Log.h" />
+    <ClInclude Include=".\NetworkManager.h" />
+    <ClInclude Include=".\ClientSocket.h" />
+    <ClInclude Include=".\ServerSocket.h" />
+    <ClInclude Include=".\NetworkControler.h" />
+    <ClInclude Include=".\Packet.h" />
+    <ClInclude Include=".\PacketFactory.h" />
+    <ClInclude Include=".\PacketMaker.h" />
+    <ClInclude Include=".\CompletionHandler.h" />
+    <ClInclude Include=".\Session.h" />
+    <ClInclude Include=".\Thread.h" />
+    <ClInclude Include=".\ThreadManager.h" />
+    <ClInclude Include=".\WorkThread.h" />
+    <ClInclude Include=".\User.h" />
+    <ClInclude Include=".\Irrdevice.h" />
+    <ClInclude Include=".\ResourceManager.h" />
+    <ClInclude Include=".\Object.h" />
+    <ClInclude Include=".\ObjectFactory.h" />
+    <ClInclude Include=".\SkyBoxObject.h" />
+    <ClInclude Include=".\TerrainObject.h" />
+    <ClInclude Include=".\UnitObject.h" />
+    <ClInclude Include=".\State.h" />
+    <ClInclude Include=".\StateFactyory.h" />
+    <ClInclude Include=".\StateFighting.h" />
+    <ClInclude Include=".\StateNetwork.h" />
+    <ClInclude Include=".\StateTemp.h" />
+    <ClInclude Include=".\StateWaitingRoom.h" />
+    <ClInclude Include=".\Observer.h" />
+    <ClInclude Include=".\ObserverEvent.h" />
+    <ClInclude Include=".\AnimationControler.h" />
+    <ClInclude Include=".\Player.h" />
+    <ClInclude Include=".\ChildCommand.h" />
+    <ClInclude Include=".\Command.h" />
+    <ClInclude Include=".\MacroCommand.h" />
+    <ClInclude Include=".\CommandFactory.h" />
+    <ClInclude Include=".\Time.h" />
+    <ClInclude Include=".\WindowTime.h" />
+    <ClInclude Include=".\FightingSprit.h" />
+    <ClInclude Include=".\Glober.h" />
+    <ClInclude Include=".\SmartPointer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

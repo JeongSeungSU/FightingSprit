@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{c4b452be-87a2-4407-a681-aa4373202d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{9c824936-95a5-4274-8472-3316cf5d7127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Log">
+      <UniqueIdentifier>{a0965dfa-423f-4795-ba00-0dd9a522c66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Manager">
+      <UniqueIdentifier>{ab38299f-cd67-483a-a247-40e061196912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Socket">
+      <UniqueIdentifier>{2b6699e7-bef1-4d37-8ece-08a8362b554f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Controler">
+      <UniqueIdentifier>{81803817-7beb-4871-bc86-208a90f55293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet">
+      <UniqueIdentifier>{45a7ccac-4b07-4ff4-967a-c2ffc868c436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Server">
+      <UniqueIdentifier>{f0b9d12c-4c10-4c3d-9fe6-78221fcf75e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼">
+      <UniqueIdentifier>{4aef4096-74e8-4c50-9bbb-77b019f77920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼\Manager">
+      <UniqueIdentifier>{76324cc3-9e4e-4003-9d8e-bd9614375f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼\Object">
+      <UniqueIdentifier>{91f56ce1-5834-4dbe-89e8-c8fe14059950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼\Object\UI">
+      <UniqueIdentifier>{9734e367-070e-441d-b0ec-d794ee1d98ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼\State">
+      <UniqueIdentifier>{b96d33fa-01e5-4979-9435-8ba9e4752fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼\Observer">
+      <UniqueIdentifier>{fea5f452-1fb5-4844-8117-4ad67ac967e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="투혼\Interface">
+      <UniqueIdentifier>{2d66d4e2-f543-4642-bc68-9ef15c1676dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{2d068774-2578-41f6-8a88-c1a9ddbdb0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command\CommandFactory">
+      <UniqueIdentifier>{e1268725-4d8b-4b32-a1ea-e8222651b625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{d71c069b-314e-40d0-b86f-b5980a48075c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\Exception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include=".\NetworkException.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CriticalSection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ServerInfo.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Synchronized.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ConsolLog.cpp">
+      <Filter>Network\Log</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Log.cpp">
+      <Filter>Network\Log</Filter>
+    </ClCompile>
+    <ClCompile Include=".\NetworkManager.cpp">
+      <Filter>Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ClientSocket.cpp">
+      <Filter>Network\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ServerSocket.cpp">
+      <Filter>Network\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include=".\NetworkControler.cpp">
+      <Filter>Network\Controler</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Packet.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include=".\PacketFactory.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include=".\PacketMaker.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CompletionHandler.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Session.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Thread.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ThreadManager.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include=".\WorkThread.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include=".\User.cpp">
+      <Filter>투혼</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Irrdevice.cpp">
+      <Filter>투혼\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ResourceManager.cpp">
+      <Filter>투혼\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Object.cpp">
+      <Filter>투혼\Object</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ObjectFactory.cpp">
+      <Filter>투혼\Object</Filter>
+    </ClCompile>
+    <ClCompile Include=".\SkyBoxObject.cpp">
+      <Filter>투혼\Object</Filter>
+    </ClCompile>
+    <ClCompile Include=".\TerrainObject.cpp">
+      <Filter>투혼\Object</Filter>
+    </ClCompile>
+    <ClCompile Include=".\UnitObject.cpp">
+      <Filter>투혼\Object</Filter>
+    </ClCompile>
+    <ClCompile Include=".\StateFactyory.cpp">
+      <Filter>투혼\State</Filter>
+    </ClCompile>
+    <ClCompile Include=".\StateFighting.cpp">
+      <Filter>투혼\State</Filter>
+    </ClCompile>
+    <ClCompile Include=".\StateNetwork.cpp">
+      <Filter>투혼\State</Filter>
+    </ClCompile>
+    <ClCompile Include=".\StateTemp.cpp">
+      <Filter>투혼\State</Filter>
+    </ClCompile>
+    <ClCompile Include=".\StateWaitingRoom.cpp">
+      <Filter>투혼\State</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Observer.cpp">
+      <Filter>투혼\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ObserverEvent.cpp">
+      <Filter>투혼\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include=".\AnimationControler.cpp">
+      <Filter>투혼\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Player.cpp">
+      <Filter>투혼\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ChildCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include=".\MacroCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CommandFactory.cpp">
+      <Filter>Command\CommandFactory</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include=".\WindowTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include=".\FightingSprit.cpp" />
+    <ClCompile Include=".\main.cpp" />
+    <ClCompile Include=".\SmartPointer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\Exception.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include=".\NetworkException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CriticalSection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Protocol.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ServerInfo.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Synchronized.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ConsolLog.h">
+      <Filter>Network\Log</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Log.h">
+      <Filter>Network\Log</Filter>
+    </ClInclude>
+    <ClInclude Include=".\NetworkManager.h">
+      <Filter>Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ClientSocket.h">
+      <Filter>Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ServerSocket.h">
+      <Filter>Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include=".\NetworkControler.h">
+      <Filter>Network\Controler</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Packet.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include=".\PacketFactory.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include=".\PacketMaker.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CompletionHandler.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Session.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Thread.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ThreadManager.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include=".\WorkThread.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include=".\User.h">
+      <Filter>투혼</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Irrdevice.h">
+      <Filter>투혼\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ResourceManager.h">
+      <Filter>투혼\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Object.h">
+      <Filter>투혼\Object</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ObjectFactory.h">
+      <Filter>투혼\Object</Filter>
+    </ClInclude>
+    <ClInclude Include=".\SkyBoxObject.h">
+      <Filter>투혼\Object</Filter>
+    </ClInclude>
+    <ClInclude Include=".\TerrainObject.h">
+      <Filter>투혼\Object</Filter>
+    </ClInclude>
+    <ClInclude Include=".\UnitObject.h">
+      <Filter>투혼\Object</Filter>
+    </ClInclude>
+    <ClInclude Include=".\State.h">
+      <Filter>투혼\State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\StateFactyory.h">
+      <Filter>투혼\State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\StateFighting.h">
+      <Filter>투혼\State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\StateNetwork.h">
+      <Filter>투혼\State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\StateTemp.h">
+      <Filter>투혼\State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\StateWaitingRoom.h">
+      <Filter>투혼\State</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Observer.h">
+      <Filter>투혼\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ObserverEvent.h">
+      <Filter>투혼\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include=".\AnimationControler.h">
+      <Filter>투혼\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Player.h">
+      <Filter>투혼\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ChildCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include=".\MacroCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CommandFactory.h">
+      <Filter>Command\CommandFactory</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include=".\WindowTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include=".\FightingSprit.h" />
+    <ClInclude Include=".\Glober.h" />
+    <ClInclude Include=".\SmartPointer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
