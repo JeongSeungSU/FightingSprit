@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JsException" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAIAAAAAAAAAACAAAAAAEAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkException" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriticalSection" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgIAAAAAACAAAAAAAAAAAAAAAAAAEAAABAgAAAAAAA=</HashCode>
+      <FileName>CriticalSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Synchronized" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIACAAAAAAAA=</HashCode>
+      <FileName>Synchronized.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsolLog" Collapsed="true">
+    <Position X="8.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAAAAAAAAEAIAAAAAACAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ConsolLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLog" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAACAAAAAAAAAQ=</HashCode>
+      <FileName>Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkManager" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAQQAQAAAAAAAAACAAAAAABMQQRIKIAFAAAAAB4=</HashCode>
+      <FileName>NetworkManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientSocket" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAAAAAAQAAEAAIAABAAAAAgAAABIBAABABECA=</HashCode>
+      <FileName>ClientSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSocket" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAIAUAABAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ServerSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkControler" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggSAAAAAAAAAQAAAAAAEAAQgAACAABAnAAAAABAgAAA=</HashCode>
+      <FileName>NetworkControler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAIAAEAACoAwAEABAAIASgAAAABggIBAgACAAAAAGA=</HashCode>
+      <FileName>Packet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketFactory" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAACAAAAAIAAQEAAACAgAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>PacketFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InformationPacketMaker" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAAAAAAAAAgEAICAAAAkAEAAAAAAABAAAA=</HashCode>
+      <FileName>PacketMaker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserInfomationPacketMaker" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAgAAICAAAAgQAAAIAAAAAAAAA=</HashCode>
+      <FileName>PacketMaker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCompletionHandler" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIACAAAgAAAAAAAAkABgAAAAAAAAQAAAAAAAAAAEA=</HashCode>
+      <FileName>CompletionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Session" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAACAAAAQAAIAAAAgRgAAAQAAAgAgAAICAIAQA=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThread" Collapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAgAAAAAAAAgAAAAAAAAQAAAAAAIABAAACAAAAEA=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CThreadManager" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAgAAAAAAAAIAAABAAAAAAQAAAAIAAAIAAQ=</HashCode>
+      <FileName>ThreadManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWorkThread" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>WorkThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAABAAAAAAAAAAAAAAAABAIAAAAQQAA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Irrdevice" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAGAAAAgAgAAEgAAEQABIBAAAAAogQAICiFAQSAA=</HashCode>
+      <FileName>Irrdevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAACAAAAAAEAAAAAAAAAAAAAAAAABoACA=</HashCode>
+      <FileName>ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectFactory" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAAAAAAAEAAAAAAAAAAQAAAAACAAAAAQ=</HashCode>
+      <FileName>ObjectFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyBoxObject" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>SkyBoxObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainObject" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACEAEAAAAAAAAAAAQAQAAAAAAAACAAEACAA=</HashCode>
+      <FileName>TerrainObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitObject" Collapsed="true">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAAAEAAAAAAAAAAAAwAAAAIAAgAAAAAIAAA=</HashCode>
+      <FileName>UnitObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IState" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAgAAAAAgAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateFactyory" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateFactyory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateFighting" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAAQgAEAEAAAAAAAAAAAAAAAAAGAAAAAQA=</HashCode>
+      <FileName>StateFighting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateNetwork" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQECAAAAABAAgAAAEIAAAAAAAAAAAFAAAACAAAAgAA=</HashCode>
+      <FileName>StateNetwork.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateTemp" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQQEACAABAAAYgCAAFAAAAAAAAAABAAAAAAmUFBAAQQ=</HashCode>
+      <FileName>StateTemp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateWaitingRoom" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQEAAAAAAAAAgAAAEAAAEAAAAAAAAAAAAACAAAAAIA=</HashCode>
+      <FileName>StateWaitingRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObserver" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAQAgAEAAAAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObserverEvent" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ObserverEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationControler" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimationControler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAgAAAAAggACQIAAAABAAAAgAgAAAmAQggABE=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserConnect" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAICAABAAAIAQAAEQAIAAAA=</HashCode>
+      <FileName>ChildCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserConnectReceive" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAAAAAAAAAAAAICAABAAAIAAAAEQAAAAAA=</HashCode>
+      <FileName>ChildCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacroCommand" Collapsed="true">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAQAQBAAAAA=</HashCode>
+      <FileName>MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandFactory" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAGAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Time" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAAQA=</HashCode>
+      <FileName>Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowTime" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>WindowTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FightingSprit" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAQAAAAAQBAQAAAAAAAAAI=</HashCode>
+      <FileName>FightingSprit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartPointer&lt;T&gt;" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAIAAIAACAQAAAAAAAAAAAIAEAAAAAiA=</HashCode>
+      <FileName>SmartPointer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ServerInfo" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAIAAAAABAEAAAAAACAABAgIAAAAAAAAAA=</HashCode>
+      <FileName>ServerInfo.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PacketAddr" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAACAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>NetworkManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CharacterInformation" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketMaker.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="UserMap" Collapsed="true">
+    <Position X="19" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerInfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UserIter" Collapsed="true">
+    <Position X="15.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerInfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PacketQueue" Collapsed="true">
+    <Position X="13.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CharacterList" Collapsed="true">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketMaker.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CharacterIter" Collapsed="true">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketMaker.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UserList" Collapsed="true">
+    <Position X="17.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketMaker.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MeshList" Collapsed="true">
+    <Position X="17.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MeshIter" Collapsed="true">
+    <Position X="15.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OBLIST" Collapsed="true">
+    <Position X="20.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OBITER" Collapsed="true">
+    <Position X="19" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CommandList" Collapsed="true">
+    <Position X="20.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CommandIter" Collapsed="true">
+    <Position X="19" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BYTE" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DWORD" Collapsed="true">
+    <Position X="13.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files\microsoft sdks\windows\v6.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="ProtocolList" Collapsed="true">
+    <Position X="17.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAIAAAAAAAgCAAQAAAQgAAAQAAAAAAAgAIA=</HashCode>
+      <FileName>Protocol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NETWORKSTATE" Collapsed="true">
+    <Position X="15.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>NetworkManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WindowMessage" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ClientSocket.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="STATE" Collapsed="true">
+    <Position X="19" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQQAAAAABAAAAAUAAAAgAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_00da_1" Collapsed="true">
+    <Position X="13.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAgAAAAAAAIAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>StateNetwork.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UNIT_ACTION_STATE" Collapsed="true">
+    <Position X="20.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Glober.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UNIT_STATE" Collapsed="true">
+    <Position X="13.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Glober.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
